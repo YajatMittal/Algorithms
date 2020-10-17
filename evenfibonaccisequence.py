@@ -1,5 +1,5 @@
 #here are the two most important variables for the fibonacci sequence
-numbers = [1,2]
+numbers = [0,1]
 even_numbers = []
 
 #here is a for loop running until the fibonacci sequence's value exceeds 4 million
