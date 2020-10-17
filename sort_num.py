@@ -13,7 +13,7 @@ def bubble_sort(alist):
     
     
 
-bubble_sort([5,8,3])
+bubble_sort()
 
 
 
