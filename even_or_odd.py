@@ -1,15 +1,12 @@
 def even_or_odd():
-    active = True
-    while active:
+    while True:
         try:
             user_input  = int(input("Enter a number:"))
-    
         except:
             print("Ivalid Input!")
             continue
-        
         else:
-            active = False  
+            break  
     
     if user_input % 2 == 0:
         print(f"{user_input} is even!")
