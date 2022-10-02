@@ -6,7 +6,7 @@ def factorial():
     elif factorial_num < 0:
         print("Factorial of negatives don't exist")    
     else:
-        for x in range(1,factorial_num+1):
+        for x in range(1,factorial_num):
             factorial_num *= x
         print(factorial_num)
         
